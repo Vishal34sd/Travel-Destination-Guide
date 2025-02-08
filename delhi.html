@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Delhi Travel Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: aqua;
+            color: #333;
+        }
+        header {
+            background-color: #e74c3c;;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin-bottom: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .card h3 {
+            margin-top: 0;
+            color:  #e74c3c;
+        }
+        .card p {
+            margin: 10px 0;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>New Delhi Travel Guide</h1>
+        <nav>
+            <a href="destination23.html">Home</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="places">
+            <h2>Best Places to Visit</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>India Gate</h3>
+                    <p>A war memorial located in the heart of Delhi, surrounded by lush lawns and vibrant street activities.</p>
+                </div>
+                <div class="card">
+                    <h3>Qutub Minar</h3>
+                    <p>A UNESCO World Heritage Site, this towering minaret is an architectural marvel of the Mughal era.</p>
+                </div>
+                <div class="card">
+                    <h3>Red Fort</h3>
+                    <p>An iconic symbol of India, this historic fort showcases stunning Mughal architecture and rich history.</p>
+                </div>
+                <div class="card">
+                    <h3>Lotus Temple</h3>
+                    <p>A Bahá'í House of Worship known for its unique lotus-shaped architecture and serene environment.</p>
+                </div>
+                <div class="card">
+                    <h3>Humayun's Tomb</h3>
+                    <p>A magnificent garden tomb that served as an inspiration for the Taj Mahal.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hotels">
+            <h2>Resorts and Hotels</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>The Leela Palace</h3>
+                    <p>A luxury hotel offering exquisite architecture, world-class amenities, and top-tier dining.</p>
+                </div>
+                <div class="card">
+                    <h3>ITC Maurya</h3>
+                    <p>A premium hotel known for its grandeur and exceptional hospitality.</p>
+                </div>
+                <div class="card">
+                    <h3>Taj Palace</h3>
+                    <p>An iconic hotel providing luxurious accommodations and a blend of traditional and modern charm.</p>
+                </div>
+                <div class="card">
+                    <h3>Hyatt Regency Delhi</h3>
+                    <p>A contemporary hotel with stylish rooms, fine dining, and top-notch facilities.</p>
+                </div>
+                <div class="card">
+                    <h3>Shangri-La Eros</h3>
+                    <p>A haven of luxury and comfort located in the heart of the city.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="food">
+            <h2>Famous Foods</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Chole Bhature</h3>
+                    <p>A popular North Indian dish featuring spicy chickpeas and fluffy deep-fried bread.</p>
+                </div>
+                <div class="card">
+                    <h3>Butter Chicken</h3>
+                    <p>A creamy and flavorful chicken curry that originated in Delhi.</p>
+                </div>
+                <div class="card">
+                    <h3>Paranthas</h3>
+                    <p>Delicious stuffed flatbreads, often enjoyed with pickles and yogurt.</p>
+                </div>
+                <div class="card">
+                    <h3>Kulfi</h3>
+                    <p>A rich and creamy frozen dessert, perfect for a hot day in Delhi.</p>
+                </div>
+                <div class="card">
+                    <h3>Street Food</h3>
+                    <p>Indulge in golgappas, aloo tikki, and a variety of chaats available at every corner.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="market">
+            <h2>Famous Markets</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Chandni Chowk</h3>
+                    <p>A bustling market known for its narrow lanes, street food, and diverse shopping options.</p>
+                </div>
+                <div class="card">
+                    <h3>Sarojini Nagar</h3>
+                    <p>A budget-friendly market offering trendy clothing, accessories, and more.</p>
+                </div>
+                <div class="card">
+                    <h3>Khan Market</h3>
+                    <p>An upscale market with premium stores, cafes, and bookstores.</p>
+                </div>
+                <div class="card">
+                    <h3>Dilli Haat</h3>
+                    <p>An open-air market showcasing handicrafts, regional foods, and cultural performances.</p>
+                </div>
+                <div class="card">
+                    <h3>Janpath Market</h3>
+                    <p>A vibrant market offering souvenirs, jewelry, and ethnic wear.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+   
+</body>
+</html>

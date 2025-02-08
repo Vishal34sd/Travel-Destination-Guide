@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agra Travel Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: aqua;
+            color: #333;
+        }
+        header {
+            background-color: #e74c3c;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin-bottom: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #e74c3c;
+        }
+        .card p {
+            margin: 10px 0;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agra Travel Guide</h1>
+        <nav>
+            <a href="destination23.html">Home</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="places">
+            <h2>Best Places to Visit</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Taj Mahal</h3>
+                    <p>A UNESCO World Heritage Site and one of the Seven Wonders of the World, this marble mausoleum is a symbol of love and architectural beauty.</p>
+                </div>
+                <div class="card">
+                    <h3>Agra Fort</h3>
+                    <p>A historical fort that served as a residence for Mughal emperors, featuring stunning architecture and rich history.</p>
+                </div>
+                <div class="card">
+                    <h3>Fatehpur Sikri</h3>
+                    <p>A deserted city built by Emperor Akbar, known for its well-preserved Mughal architecture.</p>
+                </div>
+                <div class="card">
+                    <h3>Mehtab Bagh</h3>
+                    <p>A beautiful garden located opposite the Taj Mahal, offering stunning views, especially at sunset.</p>
+                </div>
+                <div class="card">
+                    <h3>Itmad-ud-Daulah's Tomb</h3>
+                    <p>Often called the "Baby Taj," this exquisite tomb is a precursor to the Taj Mahal.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hotels">
+            <h2>Resorts and Hotels</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>The Oberoi Amarvilas</h3>
+                    <p>A luxury hotel offering unparalleled views of the Taj Mahal and world-class amenities.</p>
+                </div>
+                <div class="card">
+                    <h3>ITC Mughal</h3>
+                    <p>A premium hotel inspired by Mughal architecture, featuring lush gardens and excellent facilities.</p>
+                </div>
+                <div class="card">
+                    <h3>Trident Agra</h3>
+                    <p>Known for its warm hospitality, beautiful rooms, and proximity to the Taj Mahal.</p>
+                </div>
+                <div class="card">
+                    <h3>Hotel Clarks Shiraz</h3>
+                    <p>A heritage hotel offering comfortable stays with a blend of modern and traditional charm.</p>
+                </div>
+                <div class="card">
+                    <h3>Courtyard by Marriott Agra</h3>
+                    <p>A contemporary hotel providing luxurious accommodations and top-notch services.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="food">
+            <h2>Famous Foods</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Petha</h3>
+                    <p>A sweet delicacy made from ash gourd, available in various flavors and a must-try in Agra.</p>
+                </div>
+                <div class="card">
+                    <h3>Bedai and Jalebi</h3>
+                    <p>A popular breakfast combo of spicy lentil-stuffed bread and sweet jalebis.</p>
+                </div>
+                <div class="card">
+                    <h3>Dalmoth</h3>
+                    <p>A spicy and crunchy snack made with fried lentils and nuts, perfect as a souvenir.</p>
+                </div>
+                <div class="card">
+                    <h3>Shahi Tukda</h3>
+                    <p>A rich dessert made with bread, milk, and dry fruits, showcasing Mughlai culinary influence.</p>
+                </div>
+                <div class="card">
+                    <h3>Mughlai Cuisine</h3>
+                    <p>Enjoy flavorful dishes like biryani, kebabs, and curries that reflect Agra's royal heritage.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="market">
+            <h2>Famous Markets</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Sadar Bazaar</h3>
+                    <p>A bustling market known for leather goods, handicrafts, and delicious street food.</p>
+                </div>
+                <div class="card">
+                    <h3>Kinari Bazaar</h3>
+                    <p>A vibrant market offering jewelry, fabrics, and wedding-related items.</p>
+                </div>
+                <div class="card">
+                    <h3>Shahganj Bazaar</h3>
+                    <p>Popular for household items, garments, and a variety of other products at reasonable prices.</p>
+                </div>
+                <div class="card">
+                    <h3>Subhash Bazaar</h3>
+                    <p>Known for its silk products and a great place to shop for sarees.</p>
+                </div>
+                <div class="card">
+                    <h3>TDI Mall</h3>
+                    <p>A modern shopping destination with branded stores, a multiplex, and food courts.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+   
+</body>
+</html>
